@@ -9,6 +9,7 @@ import React, {
   useRef,
   useState,
 } from 'react';
+
 import {
   motion,
   AnimatePresence,
@@ -316,7 +317,44 @@ function DialogClose({ children, className, variants }) {
   );
 }
 
+
+
+
+
+function TransitionPanel({
+  children,
+  className,
+  transition,
+  variants,
+  activeIndex,
+  ...motionProps
+}) {
+  return (
+    <div className={`relative ${className}`}>
+      <AnimatePresence
+        initial={false}
+        mode='popLayout'
+        custom={motionProps.custom}
+      >
+        <motion.div
+          key={activeIndex}
+          variants={variants}
+          transition={transition}
+          initial='enter'
+          animate='center'
+          exit='exit'
+          {...motionProps}
+        >
+          {children[activeIndex]}
+        </motion.div>
+      </AnimatePresence>
+    </div>
+  );
+}
+
+
 export {
+  TransitionPanel,
   Dialog,
   DialogTrigger,
   DialogContainer,

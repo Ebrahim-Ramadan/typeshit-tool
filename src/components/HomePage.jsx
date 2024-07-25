@@ -1,5 +1,6 @@
 import {DialogBasicOne} from '@/components/Dialog'
 import {  CloudFog, PenBoxIcon, SearchCheckIcon, SpellCheck2Icon } from 'lucide-react'
+import FeedBackComponent from './Feedback'
 export default function Component() {
   return (
     <div className="flex min-h-[100dvh] flex-col">
@@ -82,26 +83,23 @@ export default function Component() {
                   </p>
                 </div>
               </div>
-              <button>Start Improving Your Writing</button>
+              <button className='bg-white rounded-3xl text-black font-bold px-2 py-1 md:px-4 md:py-2'>Start Improving Your Writing</button>
             </div>
           </div>
         </section>
       </main>
+      <FeedBackComponent/>
+
       <footer className="w-full bg-muted py-6 px-4 md:px-6">
-        <div className="container mx-auto max-w-7xl">
-          <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-            <p className="text-sm text-muted-foreground">&copy; 2024 Write Better. All rights reserved.</p>
-            <div className="flex gap-4">
-              <a href="#" className="text-sm font-medium text-muted-foreground hover:underline" >
-                Privacy Policy
-              </a>
-              <a href="#" className="text-sm font-medium text-muted-foreground hover:underline" >
-                Terms of Service
-              </a>
-              <a href="#" className="text-sm font-medium text-muted-foreground hover:underline" >
+        <div className="flex flex-col justify-center mx-auto max-w-7xl">
+
+          <div className="flex flex-row items-center  gap-4 md:flex-row">
+            <p className="text-sm text-muted-foreground">&copy; 2024@ All rights reserved.</p>
+            <a href="#" className="text-sm font-medium text-muted-foreground hover:underline" >
                 Contact Us
               </a>
-            </div>
+
+             
           </div>
         </div>
       </footer>
