@@ -1,11 +1,12 @@
+import MainComponent from "./components/HomePage"
 
 
 function App() {
   
   return (
-    <div className="flex min-h-screen w-full flex-col justify-center items-center">
-ass
-    </div>
+  <div className="flex flex-col justify-center items-center w-full min-h-screen p-2 md:px-24 py-2">
+     <MainComponent/>
+  </div>
   )
 }
 
