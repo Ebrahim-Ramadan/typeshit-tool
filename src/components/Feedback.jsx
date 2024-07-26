@@ -45,7 +45,7 @@ export default function FeedBackComponent() {
 
   return (
     <MotionConfig transition={TRANSITION}>
-      <div className='relative flex items-center justify-center py-20'>
+      <div className='relative flex items-center justify-center py-24'>
         <motion.button
           key='button'
           layoutId={`popover-${uniqueId}`}
