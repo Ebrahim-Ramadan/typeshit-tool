@@ -77,7 +77,7 @@ export default function FeedBackComponent() {
                 className='flex h-full flex-col'
                 onSubmit={(e) => {
                   e.preventDefault();
-                  console.log('Add Note');
+                  console.log('submitted baby');
                 }}
               >
                 <motion.span

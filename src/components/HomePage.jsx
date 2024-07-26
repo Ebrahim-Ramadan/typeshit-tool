@@ -1,4 +1,4 @@
-import {  CloudFog, Github, PenBoxIcon, SearchCheckIcon, SpellCheck2Icon, Twitter } from 'lucide-react'
+import {  CloudFog, Github, GithubIcon, PenBoxIcon, SearchCheckIcon, SpellCheck2Icon, Twitter } from 'lucide-react'
 import FeedBackComponent from './Feedback'
 export default function MainComponent() {
   return (
@@ -23,7 +23,9 @@ export default function MainComponent() {
               Contact
             </a>
           </nav>
-          <button className='primaryButton'>Get Started</button>
+          <a href='https://github.com/Ebrahim-Ramadan/wetype-tool-website' target='_blank' className='primaryButton flex flex-row items-center gap-2'>
+            <GithubIcon size='20' />
+            Source Code</a>
         </div>
       </header>
       <main className="flex-1">
@@ -32,7 +34,7 @@ export default function MainComponent() {
             <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-12">
               <div className="space-y-6 flex flex-col items-start">
                 <h1 className="text-3xl font-bold tracking-tighter text-primary-foreground sm:text-4xl md:text-5xl lg:text-6xl">
-                  Elevate Your Writing with Our Powerful Tool
+                  Elevate Your Writing Quickly
                 </h1>
                 <p className="text-lg text-primary-foreground md:text-xl">
                   Our writing improvement tool helps you enhance your grammar, word choice, and overall clarity, making
@@ -86,7 +88,7 @@ export default function MainComponent() {
                   </p>
                 </div>
               </div>
-              <button className='primaryButton'>Start Improving Your Writing</button>
+              <button className='primaryButton'>Improve Your Writing</button>
             </div>
           </div>
         </section>
@@ -107,7 +109,7 @@ export default function MainComponent() {
           <Twitter/>
           </a>
           <a href=''>
-          <Github/>
+          <GithubIcon />
           </a>
         </div>
         </div>
