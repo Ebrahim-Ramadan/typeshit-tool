@@ -134,7 +134,7 @@ export default function MainComponent() {
           <a href='https://x.com/scoopsahoykid' target='_blank'>
           <Twitter/>
           </a>
-          <a href='https://github.com/Ebrahim-Ramadan' target='_blank'>
+          <a href='https://github.com/Ebrahim-Ramadan/wetype-tool' target='_blank'>
           <GithubIcon />
           </a>
           <a href='https://pypi.org/project/typeshit/' target='_blank'>
