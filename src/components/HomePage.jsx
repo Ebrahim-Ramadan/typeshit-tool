@@ -21,10 +21,9 @@ export default function MainComponent() {
             </a>
         </div>
       </header>
+
       <section className='w-full min-h-screen md:block hidden -z-20 opacity-20 '>
         <div class="bg-gradient-to-t from-black to-black/20 h-96 w-full absolute bottom-[-63px] left-0 z-10">
-
-
         </div>
       <div class="absolute -bottom-16 -left-40 w-[85vw] h-[85vw] rounded-full transform -rotate-12">
      <img 
@@ -38,9 +37,23 @@ export default function MainComponent() {
     alt='Top left sphere'
   />
   </div>
-
-
 </section>
+
+<section className='relative h-48 w-full md:hidden flex items-center justify-center'>
+  {/* bg gradient */}
+  <div className="absolute inset-0 bg-gradient-to-t from-black to-black/20 z-10"></div>
+
+  {/* Content */}
+  <div className="flex flex-col h-full items-center justify-center py-4 relative -z-20">
+    <img 
+    className='w-full'
+      src='/big-sphere.svg'
+      alt='Top left sphere'
+    />
+  </div>
+</section>
+
+
       <main className="flex-1 md:-mt-96">
 <div className=' flex-col items-center justify-center py-4 hidden md:flex'>
 <CopyComponent />
