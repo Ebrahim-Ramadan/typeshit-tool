@@ -55,7 +55,8 @@ export default function MainComponent() {
             <div className="flex flex-col md:grid grid-cols-2 items-center gap-6  lg:gap-16 ">
               <div className="space-y-2 md:space-y-6 flex flex-col items-start ">
                 <h1 className="text-3xl font-bold tracking-tighter text-primary-foreground sm:text-4xl md:text-5xl lg:text-6xl">
-                  Elevate Your Writing with <span className=' text-[#DB2777]'>TypeShit</span>
+                  Elevate Your Writing with <a href='https://pypi.org/project/typeshit/' target='_blank' className=' text-[#DB2777]'>
+                  TypeShit</a>
                 </h1>
                 <p className="text-lg font-medium md:text-xl">
                   Wrong Keyboard? Long Text Written Already? Missed it All? We got you  
@@ -110,9 +111,8 @@ export default function MainComponent() {
                 </div>
               </div>
               <div className='w-full flex flex-row justify-center'>
-              <a href='https://github.com/Ebrahim-Ramadan/TypeShit' target='_blank' className='primaryButton  flex flex-row items-center gap-2'>
-            <GithubIcon size='20' />
-            Contribute</a>
+              <a href='https://pypi.org/project/typeshit/' target='_blank' className='primaryButton  flex flex-row items-center gap-2'>
+            Documentation</a>
               </div>
             </div>
           </div>
