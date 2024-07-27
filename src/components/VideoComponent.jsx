@@ -32,7 +32,7 @@ const VideoComponent = () => {
   };
 
   return (
-    <section className='px-4'>
+    <section className='px-2'>
       <div className='relative'>
         <video 
           ref={videoRef} 
