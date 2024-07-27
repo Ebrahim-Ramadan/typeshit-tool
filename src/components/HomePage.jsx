@@ -110,14 +110,23 @@ export default function MainComponent() {
                   </p>
                 </div>
               </div>
-              <div className='w-full flex flex-row justify-center'>
-              <a href='https://pypi.org/project/typeshit/0.2.2/' target='_blank' className='primaryButton  flex flex-row items-center gap-2'>
-            Documentation</a>
-              </div>
+             
+              <div className='flex justify-center flex-row'>
+<a href="https://pypi.org/project/typeshit" className='inline-flex gap-x-4 items-center rounded-full p-1 pr-2 md:pr-6 border text-sm font-medium duration-150 hover:bg-[#9e7497]'>
+                  <span className='inline-block rounded-full px-3 py-1 bg-[#DB2777] text-white'>
+                      New
+                  </span>
+                  <p className='flex items-center text-gray-50'>
+                     Read Documentation
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+                          <path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" />
+                      </svg>
+                  </p>
+              </a>
+</div>
             </div>
           </div>
         </section>
-
       </main>
       < div className="py-4 flex flex-row justify-center w-full  text-center" >
       <div className="bg-gradient-to-r from-transparent via-[#DB2777] to-transparent w-full  h-[2px] opacity-80"></div>

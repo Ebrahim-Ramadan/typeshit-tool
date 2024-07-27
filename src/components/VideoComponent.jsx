@@ -36,7 +36,7 @@ const VideoComponent = () => {
       <div className='relative'>
         <video 
           ref={videoRef} 
-          className='bg-[#3D3D3D] w-full rounded-xl shadow-[#4f0724] shadow-3xl border border-1 md:border-2 border-white/30 transition-all duration-500' 
+          className='bg-[#3D3D3D] w-full rounded-xl shadow-[#4f0724] shadow-3xl border border-1 md:border-2 border-white/10 transition-all duration-500' 
           loop 
           autoPlay 
           muted 
