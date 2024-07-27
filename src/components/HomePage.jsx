@@ -86,60 +86,58 @@ export default function MainComponent() {
           </div>
         </section>
        
-        <section className="w-full  py-12 md:py-24 lg:py-32">
-          <div className="container mx-auto max-w-7xl px-4 md:px-6">
-            <div className="space-y-6 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter text-foreground sm:text-4xl md:text-5xl">
-                  Unlock Your Writing Potential
-                </h2>
-                <p className="text-lg text-muted-foreground md:text-xl">
-                  Our writing improvement tool offers a range of features to help you become a better writer.
-                </p>
-              </div>
-              <div className="py-6 grid gap-8 sm:grid-cols-2 md:grid-cols-3 [&>*]:space-y-2 [&>*]:text-center [&>*]:flex [&>*]:flex-col [&>*]:justify-center [&>*]:items-center md:px-20">
-                <div className="">
-                  <SpellCheck2Icon className="h-8 w-8 text-[#DB2777]" />
-                  <h3 className="text-xl font-bold text-foreground">Improved Grammar</h3>
-                  <p className="text-muted-foreground">
-                    Our advanced grammar checker identifies and corrects grammatical errors, helping you write with
-                    confidence.
-                  </p>
-                </div>
-                <div className="">
-                  <SearchCheckIcon className="h-8 w-8 text-[#DB2777]" />
-                  <h3 className="text-xl font-bold text-foreground">Better Word Choice</h3>
-                  <p className="text-muted-foreground">
-                    Enhance your vocabulary and word selection with our intelligent thesaurus, ensuring your writing is
-                    more precise and engaging.
-                  </p>
-                </div>
-                <div className="">
-                  <CloudFog className="h-8 w-8 text-[#DB2777]" />
-                  <h3 className="text-xl font-bold text-foreground">Increased Clarity</h3>
-                  <p className="text-muted-foreground">
-                    Our writing analysis tools provide feedback on sentence structure, tone, and overall clarity,
-                    helping you communicate your ideas more effectively.
-                  </p>
-                </div>
-              </div>
-             
-              <div className='flex justify-center flex-row'>
-<a href="https://pypi.org/project/typeshit" className='inline-flex gap-x-4 items-center rounded-full p-1 pr-2 md:pr-6 border text-sm font-medium duration-150 hover:bg-[#9e7497]'>
-                  <span className='inline-block rounded-full px-3 py-1 bg-[#DB2777] text-white'>
-                      New
-                  </span>
-                  <p className='flex items-center text-gray-50'>
-                     Read Documentation
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
-                          <path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" />
-                      </svg>
-                  </p>
-              </a>
-</div>
-            </div>
-          </div>
-        </section>
+        <section className="w-full py-12 md:py-24 lg:py-32">
+  <div className="container mx-auto max-w-7xl px-4 md:px-6">
+    <div className="space-y-6 text-center">
+      <div className="space-y-2">
+        <h2 className="text-3xl font-bold tracking-tighter text-foreground sm:text-4xl md:text-5xl">
+          Unlock Your Writing Potential
+        </h2>
+        <p className="text-lg text-muted-foreground md:text-xl">
+          Our writing improvement tool offers a range of features to help you become a better writer.
+        </p>
+      </div>
+      <div className="py-6 grid gap-8 sm:grid-cols-2 md:grid-cols-3 [&>*]:space-y-2 [&>*]:text-center [&>*]:flex [&>*]:flex-col [&>*]:justify-center [&>*]:items-center md:px-20">
+        <div className="">
+          <SpellCheck2Icon className="h-8 w-8 text-[#DB2777]" />
+          <h3 className="text-xl font-bold text-foreground">Enhanced Grammar Check</h3>
+          <p className="text-muted-foreground">
+            Detect and correct grammatical errors with advanced tools, ensuring your writing is clear and error-free.
+          </p>
+        </div>
+        <div className="">
+          <SearchCheckIcon className="h-8 w-8 text-[#DB2777]" />
+          <h3 className="text-xl font-bold text-foreground">Smart Vocabulary Enhancement</h3>
+          <p className="text-muted-foreground">
+            Expand your vocabulary with context-sensitive suggestions, making your writing more engaging and precise.
+          </p>
+        </div>
+        <div className="">
+          <CloudFog className="h-8 w-8 text-[#DB2777]" />
+          <h3 className="text-xl font-bold text-foreground">Improved Clarity and Readability</h3>
+          <p className="text-muted-foreground">
+            Get feedback on sentence structure and tone to enhance the clarity and impact of your writing.
+          </p>
+        </div>
+      </div>
+
+      <div className='flex justify-center'>
+        <a href="https://pypi.org/project/typeshit" className='inline-flex gap-x-4 items-center rounded-full p-1 pr-2 md:pr-6 border text-sm font-medium duration-150 hover:bg-[#9e7497]'>
+          <span className='inline-block rounded-full px-3 py-1 bg-[#DB2777] text-white'>
+            New
+          </span>
+          <p className='flex items-center text-gray-50'>
+            Read Documentation
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+              <path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" />
+            </svg>
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
       </main>
       < div className="py-4 flex flex-row justify-center w-full  text-center" >
       <div className="bg-gradient-to-r from-transparent via-[#DB2777] to-transparent w-full  h-[2px] opacity-80"></div>
