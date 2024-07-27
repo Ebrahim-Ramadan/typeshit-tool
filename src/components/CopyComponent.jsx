@@ -9,10 +9,9 @@ export const CopyComponent = ({blurred}) => {
     copyToClipboard('pip install typeshit');
     setIsCopied(true);
 
-    // Reset the icon back to the original after a few seconds
     setTimeout(() => {
       setIsCopied(false);
-    }, 2000); // Adjust the duration as needed
+    }, 2000); 
   };
 
   return (
@@ -21,9 +20,9 @@ export const CopyComponent = ({blurred}) => {
         <span aria-hidden="true" className="px-2">~</span>pip install typeshit
       </div>
       {isCopied ? (
-        <CheckCircle size='16' className='' />
+        <CheckCircle size='16' />
       ) : (
-        <Copy size='16'  className='' />
+        <Copy size='16'  />
       )}
     </pre>
   );

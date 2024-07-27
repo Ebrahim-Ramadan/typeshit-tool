@@ -25,7 +25,7 @@ const VideoComponent = () => {
           document.webkitExitFullscreen();
         } else if (document.msExitFullscreen) {
           document.msExitFullscreen();
-        }
+        } // just some other browser compatibility shit
       }
       setIsFullscreen(!isFullscreen);
     }
@@ -47,9 +47,9 @@ const VideoComponent = () => {
         </video>
         <button
           onClick={handleFullscreen}
-          className='absolute bottom-4 right-4 backdrop-blur-3xl bg-black/60 text-black p-2 rounded-full '
+          className='absolute bottom-4 right-4 bg-gradient-to-r from-white/90 to-white/80 text-black p-2 rounded-full '
         >
-          <ZoomIn color='white' size='20' />
+          <ZoomIn color='black' size='20' />
         </button>
       </div>
     </section>

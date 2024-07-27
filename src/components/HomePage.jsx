@@ -16,9 +16,9 @@ export default function MainComponent() {
            </svg>
            <span className='text-sm font-medium'>Welcome</span>
           </nav>
-          <a href='https://github.com/Ebrahim-Ramadan/TypeShit-tool-website' target='_blank' className='primaryButton flex flex-row items-center gap-2'>
+          <a href='https://github.com/Ebrahim-Ramadan/TypeShit' target='_blank' className='primaryButton flex flex-row items-center gap-2'>
             <GithubIcon size='20' />
-            Source Code</a>
+            Contribute</a>
         </div>
       </header>
       <section className='w-full min-h-screen md:block hidden -z-20 opacity-20 '>
@@ -71,8 +71,8 @@ export default function MainComponent() {
                 <h1 className="text-3xl font-bold tracking-tighter text-primary-foreground sm:text-4xl md:text-5xl lg:text-6xl">
                   Elevate Your Writing with <span className=' text-[#DB2777]'>TypeShit</span>
                 </h1>
-                <p className="text-lg text-primary-foreground md:text-xl">
-                  wrong keyboard? long text written already? missed it all? we got you
+                <p className="text-lg font-medium md:text-xl">
+                  Wrong Keyboard? Long Text Written Already? Missed it All? We got you  
                 </p>
                 <CopyComponent blurred={true}/>
                 {/* <button className='primaryButton'>Try It Now</button> */}
@@ -85,6 +85,7 @@ export default function MainComponent() {
             </div>
           </div>
         </section>
+       
         <section className="w-full  py-12 md:py-24 lg:py-32">
           <div className="container mx-auto max-w-7xl px-4 md:px-6">
             <div className="space-y-6 text-center">
@@ -96,9 +97,9 @@ export default function MainComponent() {
                   Our writing improvement tool offers a range of features to help you become a better writer.
                 </p>
               </div>
-              <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 [&>*]:space-y-2 [&>*]:text-center [&>*]:flex [&>*]:flex-col [&>*]:justify-center [&>*]:items-center md:px-20">
+              <div className="py-6 grid gap-8 sm:grid-cols-2 md:grid-cols-3 [&>*]:space-y-2 [&>*]:text-center [&>*]:flex [&>*]:flex-col [&>*]:justify-center [&>*]:items-center md:px-20">
                 <div className="">
-                  <SpellCheck2Icon className="h-8 w-8 text-primary" />
+                  <SpellCheck2Icon className="h-8 w-8 text-[#DB2777]" />
                   <h3 className="text-xl font-bold text-foreground">Improved Grammar</h3>
                   <p className="text-muted-foreground">
                     Our advanced grammar checker identifies and corrects grammatical errors, helping you write with
@@ -106,7 +107,7 @@ export default function MainComponent() {
                   </p>
                 </div>
                 <div className="">
-                  <SearchCheckIcon className="h-8 w-8 text-primary" />
+                  <SearchCheckIcon className="h-8 w-8 text-[#DB2777]" />
                   <h3 className="text-xl font-bold text-foreground">Better Word Choice</h3>
                   <p className="text-muted-foreground">
                     Enhance your vocabulary and word selection with our intelligent thesaurus, ensuring your writing is
@@ -114,7 +115,7 @@ export default function MainComponent() {
                   </p>
                 </div>
                 <div className="">
-                  <CloudFog className="h-8 w-8 text-primary" />
+                  <CloudFog className="h-8 w-8 text-[#DB2777]" />
                   <h3 className="text-xl font-bold text-foreground">Increased Clarity</h3>
                   <p className="text-muted-foreground">
                     Our writing analysis tools provide feedback on sentence structure, tone, and overall clarity,
@@ -122,29 +123,35 @@ export default function MainComponent() {
                   </p>
                 </div>
               </div>
-              <button className='primaryButton'>Improve Your Writing</button>
+              <div className='w-full flex flex-row justify-center'>
+              <a href='https://github.com/Ebrahim-Ramadan/TypeShit' target='_blank' className='primaryButton  flex flex-row items-center gap-2'>
+            <GithubIcon size='20' />
+            Contribute</a>
+              </div>
             </div>
           </div>
         </section>
 
       </main>
-
+      < div className="py-4 flex flex-row justify-center w-full  text-center" >
+      <div className="bg-gradient-to-r from-transparent via-[#DB2777] to-transparent w-full  h-[2px] opacity-80"></div>
+    </div >
       <footer className="w-full py-6 px-4 md:px-6">
         <div className="flex flex-row justify-between mx-auto max-w-6xl">
-        <p className="text-sm text-muted-foreground">&copy; 2024@ All rights reserved.</p>
+        <p className="text-sm font-medium">&copy;2024 <span><a href='https://ebrahim-ramadan.vercel.app/' target='_blank' className='underline'>sharmojj</a></span></p>
           
 
              
           
           <div className="flex flex-row items-center  gap-2 ">
             
-          <a href=''>
+          <a href='https://x.com/scoopsahoykid' target='_blank'>
           <Twitter/>
           </a>
-          <a href=''>
+          <a href='https://github.com/Ebrahim-Ramadan' target='_blank'>
           <GithubIcon />
           </a>
-          <a href=''>
+          <a href='https://pypi.org/project/typeshit/' target='_blank'>
           <img src='/python-logo-only.svg' className="w-6" />
           </a>
         </div>
