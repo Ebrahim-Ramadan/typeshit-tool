@@ -55,7 +55,7 @@ export default function MainComponent() {
             <div className="flex flex-col md:grid grid-cols-2 items-center gap-6  lg:gap-16 ">
               <div className="space-y-2 md:space-y-6 flex flex-col items-start ">
                 <h1 className="text-3xl font-bold tracking-tighter text-primary-foreground sm:text-4xl md:text-5xl lg:text-6xl">
-                  Elevate Your Writing with <a href='https://pypi.org/project/typeshit/' target='_blank' className=' text-[#DB2777]'>
+                  Elevate Your Writing with <a href='https://pypi.org/project/typeshit/0.2.2/' target='_blank' className=' text-[#DB2777]'>
                   TypeShit</a>
                 </h1>
                 <p className="text-lg font-medium md:text-xl">
@@ -111,7 +111,7 @@ export default function MainComponent() {
                 </div>
               </div>
               <div className='w-full flex flex-row justify-center'>
-              <a href='https://pypi.org/project/typeshit/' target='_blank' className='primaryButton  flex flex-row items-center gap-2'>
+              <a href='https://pypi.org/project/typeshit/0.2.2/' target='_blank' className='primaryButton  flex flex-row items-center gap-2'>
             Documentation</a>
               </div>
             </div>
@@ -137,7 +137,7 @@ export default function MainComponent() {
           <a href='https://github.com/Ebrahim-Ramadan/wetype-tool' target='_blank'>
           <GithubIcon />
           </a>
-          <a href='https://pypi.org/project/typeshit/' target='_blank'>
+          <a href='https://pypi.org/project/typeshit/0.2.2/' target='_blank'>
           <img src='/python-logo-only.svg' className="w-6" />
           </a>
         </div>
