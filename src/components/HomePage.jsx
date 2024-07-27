@@ -7,8 +7,8 @@ export default function MainComponent() {
       <header className="w-full  py-6 px-4 md:px-6">
         <div className="container mx-auto flex max-w-7xl items-center justify-between">
           <a href="#" className="flex items-center gap-2">
-            <img src='/logo.svg' className="h-6 w-6 text-primary-foreground" />
-            <span className="text-lg font-bold text-primary-foreground">TypeShit</span>
+            <img src='/logo.svg' className="h-8 w-8 text-primary-foreground" />
+            {/* <span className="text-lg font-bold text-primary-foreground">TypeShit</span> */}
           </a>
           <nav className="hidden gap-1 md:flex items-center text-[#DB2777] bg-[#4f0724] px-2 py-1 rounded-xl">
            <svg fill="none" viewBox="0 0 16 16" width="16" height="16">
@@ -16,9 +16,9 @@ export default function MainComponent() {
            </svg>
            <span className='text-sm font-medium'>Welcome</span>
           </nav>
-          <a href='https://github.com/Ebrahim-Ramadan/TypeShit' target='_blank' className='primaryButton flex flex-row items-center gap-2'>
-            <GithubIcon size='20' />
-            Contribute</a>
+          <a href='https://github.com/Ebrahim-Ramadan/TypeShit' target='_blank' className='bg-white rounded-full p-2 flex flex-row items-center gap-2'>
+            <GithubIcon size='20' color='black' />
+            </a>
         </div>
       </header>
       <section className='w-full min-h-screen md:block hidden -z-20 opacity-20 '>
@@ -42,27 +42,13 @@ export default function MainComponent() {
 
 </section>
       <main className="flex-1 md:-mt-96">
-<div className='flex flex-col items-center justify-center py-4'>
+<div className=' flex-col items-center justify-center py-4 hidden md:flex'>
 <CopyComponent />
 
 </div>
         
         <VideoComponent/>
-      {/* <section className='px-4'>
-  <div className='relative overflow-hidden'>
-    <video
-      id="zoom-video"
-      className='w-full rounded-xl shadow-[0_0_20px_rgba(79,7,36,0.5)] border border-1 md:border-2 border-white/30 transition-transform duration-300 ease-in-out'
-      loop
-      autoPlay
-      muted
-      controls={false}
-    >
-      <source src='/landing.mp4' type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</section> */}
+      
 
 <section className=" py-12">
           <div className=" px-4 md:px-6">
